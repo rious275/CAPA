@@ -79,7 +79,8 @@ const Main = () => {
       }
     }
 
-    // 가공방식 필터 함수(미완성)
+    // 필터 기능은 정상구동 완료하지 못했습니다.
+    // 가공방식 필터 함수
     const ckdProcessing: React.FormEventHandler = (e) => {
       const input = e.target as HTMLInputElement;
       const { checked, value } = input;
@@ -103,7 +104,7 @@ const Main = () => {
       }
     }
 
-    // 재료 필터 함수(미완성)
+    // 재료 필터 함수
     const ckdKinds: React.FormEventHandler<HTMLDivElement> = (e) => {
       const input = e.target as HTMLInputElement;
       const { checked, value } = input;
